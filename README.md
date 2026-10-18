@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Code World Models
+<img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Papers](https://img.shields.io/badge/papers-61-2f6db5.svg)](#content)
