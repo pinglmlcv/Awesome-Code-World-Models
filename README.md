@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-61-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-62-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,7 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.10]** 🎉 Repository created with **61 papers**.
+- **[2026.10]** 🎉 Repository created with **62 papers**.
 
 ## Content
 
@@ -50,6 +50,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 A program or physics simulator evolves the world state, and a video generator renders it.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning** (Xikang Guan, Shaocong Yang, Yanqi Bao, Can Wang, Zheng Gu, Zhengqing Chen, Kai Chen, Jing Huo, Yang Gao) · [📄 Paper](https://arxiv.org/abs/2610.23677) · [💻 Code](https://xxkkxxx.github.io/PhysRepair-Website/) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Code World Model: Coding Agent as World Brain** (Yiwen Chen, Guosheng Lin, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2608.25927) · [💻 Code](https://github.com/buaacyw/code-world-model) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation** (Qirui Li, Jinkun Hao, Yibo Li, Ran Yi, Paul L. Rosin, Yu-Kun Lai) · [📄 Paper](https://arxiv.org/abs/2607.16355) · `Agent`
 - ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **Physical Simulator In-the-Loop Video Generation** (Lin Geng Foo, Mark He Huang, Alexandros Lattas, Stylianos Moschoglou, Thabo Beeler, Christian Theobalt) · [📄 Paper](https://arxiv.org/abs/2603.06408)
