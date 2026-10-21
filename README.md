@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-62-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-63-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,7 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.10]** 🎉 Repository created with **62 papers**.
+- **[2026.10]** 🎉 Repository created with **63 papers**.
 
 ## Content
 
@@ -114,6 +114,7 @@ The model writes the transition function or domain model (Python, PDDL, probabil
 
 LLMs and agents write simulators, simulated tasks, and articulated assets whose dynamics are defined in code.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **NeoWorld-3: From Pixels to Code-Defined Physical Worlds** (Eachen Soong, Zijian Niu, Haoran Xu, Yihong Dong, Yunbo Wang, Xiaokang Yang) · [📄 Paper](https://arxiv.org/abs/2610.27690) · [💻 Code](https://github.com/NeoWorldProject/NeoWorldStudio) · `3D` `RSI` `Embodied`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **ChronoAgentic: A Code-based Multi-Agent World Simulator for Physically Grounded Simulation Construction** (Hongyu Wang, Jingquan Wang, Ashvin Anilkumar, Bocheng Zou, Radu Serban, Dan Negrut) · [📄 Paper](https://arxiv.org/abs/2605.14398) · `Agent`
 - ![ICML 2025](https://img.shields.io/badge/ICML-2025-7b4fb3?style=flat-square) **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos** (Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel) · [📄 Paper](https://arxiv.org/abs/2502.09886) · `Video`
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-7b4fb3?style=flat-square) **Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model** (Long Le, Jason Xie, William Liang, Hung-Ju Wang, Yue Yang, Yecheng Jason Ma, Kyle Vedder, Arjun Krishna, Dinesh Jayaraman, Eric Eaton) · [📄 Paper](https://arxiv.org/abs/2410.13882) · [💻 Code](https://github.com/vlongle/articulate-anything) · `3D`
