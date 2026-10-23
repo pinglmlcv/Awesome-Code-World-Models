@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-63-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-65-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -80,6 +80,7 @@ An agent recovers an executable simulation or program that explains an observed 
 
 An agent writes animation or scene code whose execution produces the video.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report** (Nicolae Cudlenco, Mihai Masala, Marius Leordeanu) · [📄 Paper](https://arxiv.org/abs/2607.12231) · `Agent`
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Code2Video: A Code-centric Paradigm for Educational Video Generation** (Yanzhe Chen, Kevin Qinghong Lin, Mike Zheng Shou) · [📄 Paper](https://arxiv.org/abs/2510.01174) · [💻 Code](https://github.com/showlab/Code2Video) · `Agent`
 - ![arXiv 2024](https://img.shields.io/badge/arXiv-2024-b31b1b?style=flat-square) **Kubrick: Multimodal Agent Collaborations for Synthetic Video Generation** (Liu He, Yizhi Song, Hejun Huang, Pinxin Liu, Yunlong Tang, Daniel Aliaga, Xin Zhou) · [📄 Paper](https://arxiv.org/abs/2408.10453) · `Agent` `3D`
 
@@ -162,13 +163,14 @@ Benchmarks for writing world models or simulators as code. Video-specific benchm
 
 ## Related but Out of Scope
 
-Influential work that uses code for rewards, static scenes, or layouts rather than for world dynamics.
+Influential work that uses code for rewards, static scenes, layouts, or one-off computations rather than for world dynamics.
 
 - ![ICLR 2024](https://img.shields.io/badge/ICLR-2024-7b4fb3?style=flat-square) **Eureka: Human-Level Reward Design via Coding Large Language Models** (Yecheng Jason Ma, William Liang, Guanzhi Wang, De-An Huang, Osbert Bastani, Dinesh Jayaraman, Yuke Zhu, Linxi Fan, Anima Anandkumar) · [📄 Paper](https://arxiv.org/abs/2310.12931) · [💻 Code](https://github.com/eureka-research/Eureka)
 - ![CVPR 2023](https://img.shields.io/badge/CVPR-2023-1f6feb?style=flat-square) **Infinite Photorealistic Worlds using Procedural Generation** (Alexander Raistrick, Lahav Lipson, Zeyu Ma, Lingjie Mei, Mingzhe Wang, Yiming Zuo, Karhan Kayan, Hongyu Wen, Beining Han, Yihan Wang, Alejandro Newell, Hei Law, et al.) · [📄 Paper](https://arxiv.org/abs/2306.09310) · [💻 Code](https://github.com/princeton-vl/infinigen)
 - ![ICML 2024](https://img.shields.io/badge/ICML-2024-7b4fb3?style=flat-square) **SceneCraft: An LLM Agent for Synthesizing 3D Scene as Blender Code** (Ziniu Hu, Ahmet Iscen, Aashi Jain, Thomas Kipf, Yisong Yue, David A. Ross, Cordelia Schmid, Alireza Fathi) · [📄 Paper](https://arxiv.org/abs/2403.01248)
 - ![ICLR 2024](https://img.shields.io/badge/ICLR-2024-7b4fb3?style=flat-square) **LLM-grounded Video Diffusion Models** (Long Lian, Baifeng Shi, Adam Yala, Trevor Darrell, Boyi Li) · [📄 Paper](https://arxiv.org/abs/2309.17444) · [💻 Code](https://github.com/TonyLianLong/LLM-groundedVideoDiffusion)
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-1f6feb?style=flat-square) **The Scene Language: Representing Scenes with Programs, Words, and Embeddings** (Yunzhi Zhang, Zizhang Li, Matt Zhou, Shangzhe Wu, Jiajun Wu) · [📄 Paper](https://arxiv.org/abs/2410.16770) · [💻 Code](https://github.com/zzyunzhi/scene-language)
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) **NEWTON: Agentic Planning for Physically Grounded Video Generation** (Yuxiang Feng, Juncheng Wang, Chao Xu, Yijie Qian, Huihan Wang, Wenlong Hou, Yang Liu, Baigui Sun, Yong Liu, Shujun Wang) · [📄 Paper](https://arxiv.org/abs/2605.18396)
 
 ## Related Awesome Lists
 
