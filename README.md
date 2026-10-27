@@ -174,6 +174,7 @@ Influential work that uses code for rewards, static scenes, layouts, or one-off 
 
 ## Related Awesome Lists
 
+- [Awesome-Physical-AIGC-lists](https://github.com/mengsiwei/Awesome-Physical-AIGC-lists): physics-aware generation across 3D, 4D and video, with datasets and benchmarks; companion to the IJCAI 2025 survey [Grounding Creativity in Physics](https://arxiv.org/abs/2502.07007).
 - [Awesome-World-Models](https://github.com/leofan90/Awesome-World-Models): world models for video generation, embodied AI, and autonomous driving.
 - [Awesome-From-Video-Generation-to-World-Model](https://github.com/ziqihuangg/Awesome-From-Video-Generation-to-World-Model): video generation evolving toward world models.
 - [Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents): self-improvement in foundation-model agents.
