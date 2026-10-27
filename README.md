@@ -21,6 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+- **[2026.10]** 🚀 Public release with **65 papers** in 7 sections.
 - **[2026.10]** 🎉 Repository created with **63 papers**.
 
 ## Content
