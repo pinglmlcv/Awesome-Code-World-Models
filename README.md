@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-66-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-67-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -70,6 +70,7 @@ A program or physics simulator evolves the world state, and a video generator re
 
 An agent recovers an executable simulation or program that explains an observed video.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **CodeCap-Bench: Can Code Serve as a Good Video Caption?** (Jiafu Tang, Yifan Xu, Eric Tang, Junjie Zhao, Shipeng Luo, Te Sun, Haoxuan Hu, Yiyan Ji, Xinlong Chen, Zihao Wang, Yang Shi, Yuanxing Zhang, et al.) · [📄 Paper](https://arxiv.org/abs/2610.37341) · `Benchmark`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes** (Ruihong Shen, Žiga Kovačič, Peter Kulits, Xingrui Wang, Zizhang Li, Joshua B. Tenenbaum, Alan Yuille, Jieneng Chen, Jiajun Wu) · [📄 Paper](https://arxiv.org/abs/2610.03715) · [💻 Code](https://github.com/4DCodeBench/4DCodeBench) · `Benchmark` `3D`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning** (Hanyang Wang, Yimo Cai, Weiliang Chen, Jiawei Chi, Haowen Sun, Qiyu Dai, Yi-Hsin Hung, Xingzhuo Guo, Jinshan Ren, Runmao Yao, Ziwei Liu, Mingsheng Long, Yueqi Duan, Jun Gao, Jiangran Lyu, Fangfu Liu, Jialong Wu) · [📄 Paper](https://arxiv.org/abs/2608.27549) · `Agent` `RSI`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **MPMWorlds: Material-Point-Method Simulations for Inferring and Extrapolating Physical Dynamics** (Žiga Kovačič, Kevin Ellis) · [📄 Paper](https://arxiv.org/abs/2606.01538) · `Benchmark`
