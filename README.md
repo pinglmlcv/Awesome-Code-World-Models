@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-65-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-66-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -81,6 +81,7 @@ An agent recovers an executable simulation or program that explains an observed 
 
 An agent writes animation or scene code whose execution produces the video.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation** (Muxi Diao, Wenbin Xu, Lele Yang, Xuyang Ma, Yuzhe Chen, Jiankang Chen, Kaiyu Jiang, Changyi Liu, Haoyu Zhang, Hongyi Fu, Jianxiong Wang, Tianke Zhang, et al.) · [📄 Paper](https://arxiv.org/abs/2610.35864) · `Agent` `Benchmark`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report** (Nicolae Cudlenco, Mihai Masala, Marius Leordeanu) · [📄 Paper](https://arxiv.org/abs/2607.12231) · `Agent`
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Code2Video: A Code-centric Paradigm for Educational Video Generation** (Yanzhe Chen, Kevin Qinghong Lin, Mike Zheng Shou) · [📄 Paper](https://arxiv.org/abs/2510.01174) · [💻 Code](https://github.com/showlab/Code2Video) · `Agent`
 - ![arXiv 2024](https://img.shields.io/badge/arXiv-2024-b31b1b?style=flat-square) **Kubrick: Multimodal Agent Collaborations for Synthetic Video Generation** (Liu He, Yizhi Song, Hejun Huang, Pinxin Liu, Yunlong Tang, Daniel Aliaga, Xin Zhou) · [📄 Paper](https://arxiv.org/abs/2408.10453) · `Agent` `3D`
