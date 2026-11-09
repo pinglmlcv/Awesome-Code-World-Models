@@ -3,8 +3,8 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-68-2f6db5.svg)](#content)
-[![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
+[![Papers](https://img.shields.io/badge/papers-69-2f6db5.svg)](#content)
+[![Last Update](https://img.shields.io/badge/last%20update-Nov%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
 </div>
@@ -51,6 +51,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 A program or physics simulator evolves the world state, and a video generator renders it.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Video-Coder: Reinforcing Agentic Coding for Video Generation** (Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li, Dongyang Chen, Yiyang Zhou, Huaxiu Yao, Yong Jae Lee, Radu Timofte, Yuzhang Shang) · [📄 Paper](https://arxiv.org/abs/2611.09894) · [💻 Code](https://github.com/CYWang735/Video-Coder) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning** (Xikang Guan, Shaocong Yang, Yanqi Bao, Can Wang, Zheng Gu, Zhengqing Chen, Kai Chen, Jing Huo, Yang Gao) · [📄 Paper](https://arxiv.org/abs/2610.23677) · [💻 Code](https://xxkkxxx.github.io/PhysRepair-Website/) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Code World Model: Coding Agent as World Brain** (Yiwen Chen, Guosheng Lin, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2608.25927) · [💻 Code](https://github.com/buaacyw/code-world-model) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation** (Qirui Li, Jinkun Hao, Yibo Li, Ran Yi, Paul L. Rosin, Yu-Kun Lai) · [📄 Paper](https://arxiv.org/abs/2607.16355) · `Agent`
