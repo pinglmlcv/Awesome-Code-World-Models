@@ -21,6 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+- **[2026.11]** 🔥 Now **69 papers**: added Video-Coder, which trains a coding agent with agentic RL to build the 3D scenes that condition video generation, and three new benchmarks for code-driven video (VibeVideoBench, Code2Video-Compass, CodeCap-Bench).
 - **[2026.10]** 🚀 Public release with **65 papers** in 7 sections.
 - **[2026.10]** 🎉 Repository created with **63 papers**.
 
