@@ -21,10 +21,13 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.11]** 🔥 Now **70 papers**: added PhysOPSD, which turns real-world physical scenes into executable simulation programs and uses their rendered drafts as privileged context to teach a video generator physics by on-policy self-distillation.
-- **[2026.11]** 📈 **69 papers**: added Video-Coder, which trains a coding agent with agentic RL to build the 3D scenes that condition video generation, and three new benchmarks for code-driven video (VibeVideoBench, Code2Video-Compass, CodeCap-Bench).
-- **[2026.10]** 🚀 Public release with **65 papers** in 7 sections.
-- **[2026.10]** 🎉 Repository created with **63 papers**.
+* [2026.11] 🔥 New: [PhysOPSD](https://arxiv.org/abs/2611.12411), which turns real-world physical scenes into executable simulation programs and uses their rendered drafts as privileged context to teach a video generator physics by on-policy self-distillation.
+* [2026.11] 🔥 New: [Video-Coder](https://arxiv.org/abs/2611.09894), a coding agent trained with agentic RL to write Blender code for dynamic 3D scenes whose renders guide a video generator, open-sourced with its data and models.
+* [2026.10] 🔥 New: [CodeCap-Bench](https://arxiv.org/abs/2610.37341), a benchmark of 323 structured 2D videos that asks whether executable code can serve as a faithful video caption, scored by rendering the code back into video.
+* [2026.10] 🔥 New: [VibeVideoBench](https://arxiv.org/abs/2610.35864), 239 tasks in which multimodal agents must deliver a finished video with sound built entirely through code, graded by about 13k task-specific rubric checks.
+* [2026.10] 🔥 New: [Code2Video-Compass](https://arxiv.org/abs/2610.28416), a benchmark of 2,104 code-based video generation tasks across T2V, I2V and V2V, graded by construction, animation and state-dependency complexity.
+* [2026.10] 🚀 Public release with **65 papers** in 7 sections.
+* [2026.10] 🎉 Repository created with **63 papers**.
 
 ## Content
 
