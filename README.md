@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-70-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-71-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Nov%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,6 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+* [2026.11] 🔥 New: [VibePrevisBench](https://arxiv.org/abs/2611.15789), 242 tasks in which coding agents build multi-shot 4D scenes in Blender whose graybox renders condition a real-world video generator, scored against hidden ground-truth facts and by a VLM judge.
 * [2026.11] 🔥 New: [PhysOPSD](https://arxiv.org/abs/2611.12411), which turns real-world physical scenes into executable simulation programs and uses their rendered drafts as privileged context to teach a video generator physics by on-policy self-distillation.
 * [2026.11] 🔥 New: [Video-Coder](https://arxiv.org/abs/2611.09894), a coding agent trained with agentic RL to write Blender code for dynamic 3D scenes whose renders guide a video generator, open-sourced with its data and models.
 * [2026.10] 🔥 New: [CodeCap-Bench](https://arxiv.org/abs/2610.37341), a benchmark of 323 structured 2D videos that asks whether executable code can serve as a faithful video caption, scored by rendering the code back into video.
@@ -56,6 +57,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 A program or physics simulator evolves the world state, and a video generator renders it.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender** (Yuzhe Chen, Muxi Diao, Lele Yang, Wenbin Xu, Xuyang Liu, Qile Su, Changyi Liu, Jiankang Chen, Kaiyu Jiang, Haoyu Zhang, Hongyi Fu, Jianxiong Wang, et al.) · [📄 Paper](https://arxiv.org/abs/2611.15789) · `Benchmark` `3D`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PhysOPSD: Code as Privilege for Physically Plausible Video Generation** (Harold Haodong Chen, Rui Peng, Lingteng Qiu, Kejie Qiu, Chao Xu, Zilong Dong) · [📄 Paper](https://arxiv.org/abs/2611.12411) · [💻 Code](https://github.com/aigc3d/PhysOPSD) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Video-Coder: Reinforcing Agentic Coding for Video Generation** (Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li, Dongyang Chen, Yiyang Zhou, Huaxiu Yao, Yong Jae Lee, Radu Timofte, Yuzhang Shang) · [📄 Paper](https://arxiv.org/abs/2611.09894) · [💻 Code](https://github.com/CYWang735/Video-Coder) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning** (Xikang Guan, Shaocong Yang, Yanqi Bao, Can Wang, Zheng Gu, Zhengqing Chen, Kai Chen, Jing Huo, Yang Gao) · [📄 Paper](https://arxiv.org/abs/2610.23677) · [💻 Code](https://xxkkxxx.github.io/PhysRepair-Website/) · `Agent`
