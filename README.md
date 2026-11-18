@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-72-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-73-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Nov%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -15,12 +15,13 @@ A code world model represents the state of a world and the rules by which it cha
 
 Two research lines are converging here. In agents and planning, [WorldCoder [Hao Tang et al., '24]](https://arxiv.org/abs/2402.12275) and [GIF-MCTS [Nicola Dainese et al., '24]](https://arxiv.org/abs/2405.15383) showed that an LLM can build a usable world model by writing and refining code from interaction, and [CWM [FAIR CodeGen team, '25]](https://arxiv.org/abs/2510.02387) trained a code LLM on execution traces so that it models program execution itself. In video generation, [GPT4Motion [Jiaxi Lv et al., '23]](https://arxiv.org/abs/2311.12631) and [PhysGen [Shaowei Liu et al., '24]](https://arxiv.org/abs/2409.18964) drove video synthesis with scripted physics, and [Code World Model [Yiwen Chen et al., '26]](https://arxiv.org/abs/2608.25927) proposes a division of labor in which a coding agent maintains the world state in code while a video model renders appearance and fine motion.
 
-**Inclusion rule.** A paper is listed only if an executable program represents how a world evolves over time: its state and the rules that change it. Code that only describes a static scene, a reward, or a layout is out of scope (a few representative works are listed under [Related but Out of Scope](#related-but-out-of-scope)), as are purely neural world models (see [Related Awesome Lists](#related-awesome-lists)). Each paper appears once, in its primary section; secondary topics are marked with tags (`Video`, `Agent`, `RSI`, `Benchmark`, `3D`, `Embodied`).
+**Inclusion rule.** A paper is listed only if an executable program represents how a world evolves over time: its state and the rules that change it. Code that only describes a static scene, a reward, or a layout is not covered by this rule; a few influential works of this kind are listed under [Related Directions](#related-directions). Purely neural world models are covered by the lists under [Related Awesome Lists](#related-awesome-lists). Each paper appears once, in its primary section; secondary topics are marked with tags (`Video`, `Agent`, `RSI`, `Benchmark`, `3D`, `Embodied`).
 
 This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io/pingliu264/) ([University of Nevada, Reno](https://www.unr.edu/cse)). If you believe additional works should be included, please email <pingl@unr.edu> or [raise an issue](../../issues).
 
 ## News
 
+* [2026.11] 🔥 New: [Code World Model 2.0](https://arxiv.org/abs/2611.22925), a streaming renderer that turns engine and simulator proxies of any granularity into controllable video in four causal steps, sustaining 30-minute rollouts, open-sourced with code and weights.
 * [2026.11] 🔥 New: [TelePhysica](https://arxiv.org/abs/2611.18078), a coding agent that rebuilds a single photograph as an executable multi-regime physical world, verified by silhouette critique and a gravitational equilibrium check, whose simulated rollouts condition a video diffusion model.
 * [2026.11] 🔥 New: [VibePrevisBench](https://arxiv.org/abs/2611.15789), 242 tasks in which coding agents build multi-shot 4D scenes in Blender whose graybox renders condition a real-world video generator, scored against hidden ground-truth facts and by a VLM judge.
 * [2026.11] 🔥 New: [PhysOPSD](https://arxiv.org/abs/2611.12411), which turns real-world physical scenes into executable simulation programs and uses their rendered drafts as privileged context to teach a video generator physics by on-policy self-distillation.
@@ -46,7 +47,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 - [5. ♻️ Self-Improving Code World Models](#5--self-improving-code-world-models)
 - [6. 📊 Benchmarks and Datasets](#6--benchmarks-and-datasets)
 - [7. 📚 Surveys](#7--surveys)
-- [Related but Out of Scope](#related-but-out-of-scope)
+- [Related Directions](#related-directions)
 - [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#-contributing)
 
@@ -58,6 +59,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 A program or physics simulator evolves the world state, and a video generator renders it.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Code World Model 2.0: Towards Infinite Controllable Video Generation** (Ruoyu Wang, Hao Zhong, Yanming Yang, Jiahao Tian, Lin Liu, Biao Gong, Guoshan Lu, Yiding Tian, Chunhua Shen, Zhenzhong Lan, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2611.22925) · [💻 Code](https://github.com/inclusionAI/CodeWorldModel)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **TelePhysica: Agentic Reconstruction of Physically Interactive Scenes** (Ruiqi Shu, Xufeng Zhan, Yuanzhi Liang, Haibin Huang, Chi Zhang, Xuelong Li) · [📄 Paper](https://arxiv.org/abs/2611.18078) · `Agent` `3D`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender** (Yuzhe Chen, Muxi Diao, Lele Yang, Wenbin Xu, Xuyang Liu, Qile Su, Changyi Liu, Jiankang Chen, Kaiyu Jiang, Haoyu Zhang, Hongyi Fu, Jianxiong Wang, et al.) · [📄 Paper](https://arxiv.org/abs/2611.15789) · `Benchmark` `3D`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PhysOPSD: Code as Privilege for Physically Plausible Video Generation** (Harold Haodong Chen, Rui Peng, Lingteng Qiu, Kejie Qiu, Chao Xu, Zilong Dong) · [📄 Paper](https://arxiv.org/abs/2611.12411) · [💻 Code](https://github.com/aigc3d/PhysOPSD) · `Agent`
@@ -176,7 +178,7 @@ Benchmarks for writing world models or simulators as code. Video-specific benchm
 
 ---
 
-## Related but Out of Scope
+## Related Directions
 
 Influential work that uses code for rewards, static scenes, layouts, or one-off computations rather than for world dynamics.
 
