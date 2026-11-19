@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-73-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-74-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Nov%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,6 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+* [2026.11] 🔥 New: [CodeReel](https://arxiv.org/abs/2611.22967), an execution layer that speeds up code-to-video agents by reusing exactly matching frames across versions and scheduling checks before renders, with EditLoop, a benchmark of replayable agent sessions.
 * [2026.11] 🔥 New: [Code World Model 2.0](https://arxiv.org/abs/2611.22925), a streaming renderer that turns engine and simulator proxies of any granularity into controllable video in four causal steps, sustaining 30-minute rollouts, open-sourced with code and weights.
 * [2026.11] 🔥 New: [TelePhysica](https://arxiv.org/abs/2611.18078), a coding agent that rebuilds a single photograph as an executable multi-regime physical world, verified by silhouette critique and a gravitational equilibrium check, whose simulated rollouts condition a video diffusion model.
 * [2026.11] 🔥 New: [VibePrevisBench](https://arxiv.org/abs/2611.15789), 242 tasks in which coding agents build multi-shot 4D scenes in Blender whose graybox renders condition a real-world video generator, scored against hidden ground-truth facts and by a VLM judge.
@@ -95,6 +96,7 @@ An agent recovers an executable simulation or program that explains an observed 
 
 An agent writes animation or scene code whose execution produces the video.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling** (Junyi Shen, Yao Lu) · [📄 Paper](https://arxiv.org/abs/2611.22967) · `Agent` `Benchmark`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation** (Muxi Diao, Wenbin Xu, Lele Yang, Xuyang Ma, Yuzhe Chen, Jiankang Chen, Kaiyu Jiang, Changyi Liu, Haoyu Zhang, Hongyi Fu, Jianxiong Wang, Tianke Zhang, et al.) · [📄 Paper](https://arxiv.org/abs/2610.35864) · `Agent` `Benchmark`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V** (Zhenghan Chen, Zekai Shao, Xin Lin, Leting Cheng, Siming Chen) · [📄 Paper](https://arxiv.org/abs/2610.28416) · [💻 Code](https://github.com/code2video-compass/Code2Video-Compass) · `Benchmark`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report** (Nicolae Cudlenco, Mihai Masala, Marius Leordeanu) · [📄 Paper](https://arxiv.org/abs/2607.12231) · `Agent`
