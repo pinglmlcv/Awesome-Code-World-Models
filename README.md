@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Code World Models: executable programs as worlds">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-74-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-75-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Nov%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,6 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+* [2026.11] 🔥 New: [Coda-DaVinci](https://arxiv.org/abs/2611.26595), a controlled study of proxy granularity, physics simulation and prompting in Code2Video, and a task-adaptive agent that chooses between proxy-guided and direct generation for each task, open-sourced.
 * [2026.11] 🔥 New: [CodeReel](https://arxiv.org/abs/2611.22967), an execution layer that speeds up code-to-video agents by reusing exactly matching frames across versions and scheduling checks before renders, with EditLoop, a benchmark of replayable agent sessions.
 * [2026.11] 🔥 New: [Code World Model 2.0](https://arxiv.org/abs/2611.22925), a streaming renderer that turns engine and simulator proxies of any granularity into controllable video in four causal steps, sustaining 30-minute rollouts, open-sourced with code and weights.
 * [2026.11] 🔥 New: [TelePhysica](https://arxiv.org/abs/2611.18078), a coding agent that rebuilds a single photograph as an executable multi-regime physical world, verified by silhouette critique and a gravitational equilibrium check, whose simulated rollouts condition a video diffusion model.
@@ -60,6 +61,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 A program or physics simulator evolves the world state, and a video generator renders it.
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Coda-DaVinci: Reimagining Video Generation with Code2Video** (Yiyan Ji, Qixun Wang, Yang Shi, Zhuoran Zhang, Yifan Xu, Tengfei Liu, Yuqi Tang, Xiaohan Zhang, Shujie Li, Jiafu Tang, Xuanyu Zhu, Xinyu Liu, et al.) · [📄 Paper](https://arxiv.org/abs/2611.26595) · [💻 Code](https://github.com/FrankYang-17/Coda) · `Agent`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Code World Model 2.0: Towards Infinite Controllable Video Generation** (Ruoyu Wang, Hao Zhong, Yanming Yang, Jiahao Tian, Lin Liu, Biao Gong, Guoshan Lu, Yiding Tian, Chunhua Shen, Zhenzhong Lan, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2611.22925) · [💻 Code](https://github.com/inclusionAI/CodeWorldModel)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **TelePhysica: Agentic Reconstruction of Physically Interactive Scenes** (Ruiqi Shu, Xufeng Zhan, Yuanzhi Liang, Haibin Huang, Chi Zhang, Xuelong Li) · [📄 Paper](https://arxiv.org/abs/2611.18078) · `Agent` `3D`
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender** (Yuzhe Chen, Muxi Diao, Lele Yang, Wenbin Xu, Xuyang Liu, Qile Su, Changyi Liu, Jiankang Chen, Kaiyu Jiang, Haoyu Zhang, Hongyi Fu, Jianxiong Wang, et al.) · [📄 Paper](https://arxiv.org/abs/2611.15789) · `Benchmark` `3D`
